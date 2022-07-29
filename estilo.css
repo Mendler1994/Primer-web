@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+body {
+	width: 1080px;
+	height: auto;
+	background: #FDD8A9;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "sans-serif";	
+	font-size: 12px;
+}
+
+nav { 
+	position: sticky;
+	z-index: 100;
+	top:0px;
+	width: 100%;
+	background-color: #FDE5C6;
+	justify-content: center;
+	display: flex;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+
+nav button {
+	border: solid 1px;
+	background: #FFF;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 5px;
+	padding-top: 8px; 
+	padding-right: 40px;
+	padding-bottom: 8px;
+	padding-left: 40px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "sans-serif";	
+	border-radius: 5px;
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+	font-variant: small-caps;
+}
+
+nav button:hover{
+	background-color: #EFEFEF;
+}
+
+main button{
+	background-color:#C37845;
+	border: 2px solid #AEAEAE;
+	text-align: center;
+	padding: 2px 8px;
+	border-radius: 2.5px;
+	margin-top: 30px;
+}
+
+main a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+main button:hover{
+	background-color: rgba(195,120,69,0.70);
+	transition: 0.5s;
+}
+
+a:hover{
+	color: #3A3A3A;
+	transition: 0.7s;
+}
+
+#introduccion {
+	padding: 10px 50px;
+}
+
+article {
+	background-color: #FDEFDD;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+#album {
+	width: 1060px;
+	height: 700px;
+}
+
+#album img{
+	float: left;
+}
+
+#album p{
+	font-size: 1em;
+	line-height: 1.2;
+	width: 150px;
+	float: left;
+	margin-left: 30px;
+}
+
+#discografia {
+	background-color: #FDEFDD;
+	padding-left: 15px;
+}
+
+#discografia img{
+	width: 500px;
+	height: 500px;
+	margin: 10px;
+	position:inherit;
+}
+
+#galeriadealbumes{
+	margin: 20px;
+	margin-left: -15px;
+	width: 1034px;
+	background-color: rgba(0,0,0,0.15);
+	padding: 20px;
+	display: flex;
+	border: 3px solid #FDEFDD;
+}
+
+.tapa{
+	position: relative;
+	overflow: hidden;
+}
+
+.tapa:hover .epigrafe{
+	transform: translate(0%)
+}
+
+.epigrafe{
+	border: 5px solid #000;
+	width: 440px;
+	height: 100px;
+	margin: 10px;
+	margin-top: -173px;
+	position: relative;
+	background-color: lightgray;
+	font-size: #FFF;
+	padding: 25px;
+	opacity: 0.7;
+	transform: translateY(110%);
+	transition: all 0.7s;
+}
+
+footer{
+	height: 21px;
+	width: 1000px;
+	background-color: rgba(253,239,221,1.00);
+	padding: 3px;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-left: 40px;
+	text-align: center;
+	
+}
+
+address a{
+	color: #636363;
+	text-decoration:none;
+}
